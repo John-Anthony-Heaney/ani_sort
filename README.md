@@ -5,4 +5,6 @@
 - [ ] Make Descritipion file informative and concise and include link to github
 - [ ] create testthat unit tests
 - [ ] create vignette
-- [ ] update 
+- [ ] update gitignore
+- [ ] update Rbuildignore
+      
