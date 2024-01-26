@@ -1,7 +1,7 @@
 - [x] Add method to code base.
 - [x] fix description to remove warning error
 - [ ] Roxygen help documentation including examples for all functions
-- [ ] A vignette which explains the use of the package in an informative way.
+- [x] A vignette which explains the use of the package in an informative way.
 - [ ] Make Descritipion file informative and concise and include link to github
 - [x] create testthat unit tests
 - [ ] create vignette
