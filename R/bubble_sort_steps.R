@@ -1,8 +1,9 @@
-
-bubble_sort_steps <- function(N)
-{
-
-
+#' Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
+#'
+#' @param N positive integer
+#' @return matrix of steps
+#' @export
+bubble_sort_steps <- function(N) {
   x <- sample(N)
 
   # Initialize variables
@@ -10,7 +11,7 @@ bubble_sort_steps <- function(N)
   step <- 0
 
   if(N == 1){
-    return(sorting_steps)
+    return(as.SortingStepsMatrix(sorting_steps))
   }
   else{
 
@@ -29,6 +30,6 @@ bubble_sort_steps <- function(N)
         }
       }
     }
-    return(sorting_steps)
+    return(as.SortingStepsMatrix(sorting_steps))
   }
 }

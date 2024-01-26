@@ -1,8 +1,9 @@
-
-
-insertion_sort_steps <- function(N)
-{
-
+#' Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
+#'
+#' @param N positive integer
+#' @return matrix of steps
+#' @export
+insertion_sort_steps <- function(N) {
   x <- sample(N)
 
   # Initialize variables
@@ -10,7 +11,7 @@ insertion_sort_steps <- function(N)
 
   if(N == 1)
   {
-    return(sorting_steps_is)
+    return(as.SortingStepsMatrix(sorting_steps_is))
   }
   else{
 
@@ -26,6 +27,6 @@ insertion_sort_steps <- function(N)
         sorting_steps_is <- rbind(sorting_steps_is, x)
       }
     }
-    return(sorting_steps_is)
+    return(as.SortingStepsMatrix(sorting_steps_is))
   }
 }
