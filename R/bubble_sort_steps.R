@@ -1,9 +1,18 @@
-#' Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
+#' Bubble Sort with Step-by-Step Tracking
 #'
-#' @param N positive integer
-#' @return matrix of steps
+#' Performs a bubble sort on a random sequence of integers, recording each sorting step.
+#'
+#' @param N
+#' Integer for the number of elements to sort. The function creates a random sequence from 1 to N.
+#'
+#' @return A matrix where each row shows the sequence at a particular step of sorting.
+#' The first row is the original sequence, and subsequent rows show the sequence after each swap.
+#' If N is 1, returns the original single element as no sorting is needed.
+#'
 #' @examples
-#' bubble_sort_steps(10)
+#' bubble_sort_steps(5)  # Sorts a sequence of 5 elements
+#' bubble_sort_steps(1)  # Returns a single-element sequence
+#'
 #' @export
 bubble_sort_steps <- function(N) {
   x <- sample(N)

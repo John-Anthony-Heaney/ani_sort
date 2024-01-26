@@ -2,14 +2,15 @@ Package: aniSort
 Title: Animated Sorting Algorithms Visualization
 Version: 0.1.0
 Authors@R: 
-    person("John Anthony", "Heaney", email = "john.heaney.2019@mumail.ie", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
+    c(person("John Anthony", "Heaney", email = "john.heaney.2019@mumail.ie", role = c("aut", "cre")),
+    person("Ian", "Muniu", email = "ian.muniu.2021@mumail.ie",role = c("aut")),
+    person("Kieran", "Lennon", email = "klennon2000@gmail.com",role = c("aut")))
 Description: This package provides tools to visualize different sorting algorithms using animated plots. It leverages the ggplot2 and gganimate packages to create engaging and informative animations that help in understanding the functioning of various sorting algorithms.
 License: MIT + file LICENSE
 URL: https://github.com/John-Anthony-Heaney/ani_sort
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.0
+RoxygenNote: 7.3.1
 Imports:
     ggplot2,
     gganimate

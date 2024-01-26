@@ -2,22 +2,23 @@
 % Please edit documentation in R/create_sorting_animation.R
 \name{create_sorting_animation.SortingStepsMatrix}
 \alias{create_sorting_animation.SortingStepsMatrix}
-\title{Create Sorting Animation for SortingStepsMatrix}
+\title{Create Sorting Animation}
 \usage{
 \method{create_sorting_animation}{SortingStepsMatrix}(sorting_steps_df)
 }
 \arguments{
-\item{sorting_steps_df}{A data frame or matrix of class \code{SortingStepsMatrix},
-typically representing the steps in a sorting algorithm. Each row should
-represent a step, and each column a different element being sorted.}
+\item{sorting_steps_df}{A data frame or matrix where each row represents the state of the sequence at a particular step of sorting.
+The columns represent the elements in the sequence.}
 }
 \value{
-An animation object created by \code{gganimate}, visualizing the sorting steps.
-The animation can be played in R's viewer pane or saved as a GIF or video file.
+An animation object that visually represents the sorting process step-by-step.
+Each frame of the animation corresponds to one step in the sorting process.
 }
 \description{
-This function takes a \code{SortingStepsMatrix} object, which typically represents
-the steps involved in a sorting algorithm, and creates an animated visualization
-using \code{ggplot2} and \code{gganimate}. The animation shows the progression of the
-sorting process step by step.
+Generates an animated visualization of a sorting process, using the steps recorded during the sorting.
+}
+\examples{
+#Not run because the resulting gif comes out as multiple .pngs which gives a note.
+#create_sorting_animation(bubble_sort_steps(10))
+
 }

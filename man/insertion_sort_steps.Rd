@@ -2,20 +2,24 @@
 % Please edit documentation in R/insertion_sort_steps.R
 \name{insertion_sort_steps}
 \alias{insertion_sort_steps}
-\title{Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix}
+\title{Insertion Sort with Step-by-Step Tracking}
 \usage{
 insertion_sort_steps(N)
 }
 \arguments{
-\item{N}{positive integer}
+\item{N}{An integer specifying the number of elements in the sequence to be sorted.
+The sequence is generated as a random permutation of integers from 1 to N.}
 }
 \value{
-matrix of steps
+A matrix where each row represents the state of the sequence at each step of the sorting process.
+The first row is the initial, unsorted sequence, and subsequent rows show the sequence after each movement in the insertion sort algorithm.
+If N is 1, a single-row matrix with the unsorted sequence is returned, as no sorting is needed.
 }
 \description{
-Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
+Performs an insertion sort on a randomly generated sequence of integers, recording each sorting step.
 }
 \examples{
-# example code
-insertion_sort_steps(10)
+insertion_sort_steps(5)  # Sorts a sequence of 5 elements
+insertion_sort_steps(1)  # Returns the unsorted single-element sequence
+
 }

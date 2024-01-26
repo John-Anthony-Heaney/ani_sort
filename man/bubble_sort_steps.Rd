@@ -2,19 +2,23 @@
 % Please edit documentation in R/bubble_sort_steps.R
 \name{bubble_sort_steps}
 \alias{bubble_sort_steps}
-\title{Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix}
+\title{Bubble Sort with Step-by-Step Tracking}
 \usage{
 bubble_sort_steps(N)
 }
 \arguments{
-\item{N}{positive integer}
+\item{N}{Integer for the number of elements to sort. The function creates a random sequence from 1 to N.}
 }
 \value{
-matrix of steps
+A matrix where each row shows the sequence at a particular step of sorting.
+The first row is the original sequence, and subsequent rows show the sequence after each swap.
+If N is 1, returns the original single element as no sorting is needed.
 }
 \description{
-Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
+Performs a bubble sort on a random sequence of integers, recording each sorting step.
 }
 \examples{
-bubble_sort_steps(10)
+bubble_sort_steps(5)  # Sorts a sequence of 5 elements
+bubble_sort_steps(1)  # Returns a single-element sequence
+
 }
