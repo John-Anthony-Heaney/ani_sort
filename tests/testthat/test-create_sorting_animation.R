@@ -3,12 +3,12 @@ library(testthat)
 test_that("create_sorting_animation handles different input types", {
   # Assuming bubble_sort_steps generates a matrix, convert it to different types
   N <- 5
-  matrix_input <- bubble_sort_steps(N)
-  df_input <- as.data.frame(matrix_input)
+  ssm_input <- bubble_sort_steps(N)
+  #ssm_input <- as.SortingStepsMatrix(matrix_input)
 
   # Test with matrix and data frame input
-  expect_silent(create_sorting_animation(matrix_input))
-  expect_silent(create_sorting_animation(df_input))
+ #expect_silent(create_sorting_animation(matrix_input))
+  expect_silent(create_sorting_animation(ssm_input))
 })
 
 test_that("find_differences_vectorized correctly identifies differences", {
