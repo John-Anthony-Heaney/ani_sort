@@ -2,10 +2,10 @@
 - [x] fix description to remove warning error
 - [ ] Roxygen help documentation including examples for all functions
 - [x] A vignette which explains the use of the package in an informative way.
-- [ ] Make Descritipion file informative and concise and include link to github
+- [x] Make Descritipion file informative and concise and include link to github
 - [x] create testthat unit tests
-- [ ] create vignette
-- [ ] update gitignore
+- [x] create vignette
+- [x] update gitignore
 - [ ] update Rbuildignore
 - [ ] update testthat unit test for create_sorting_animation to include verification that a .gif was created 
       
