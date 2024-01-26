@@ -2,6 +2,8 @@
 #'
 #' @param N positive integer
 #' @return matrix of steps
+#' @examples
+#' bubble_sort_steps(10)
 #' @export
 bubble_sort_steps <- function(N) {
   x <- sample(N)

@@ -6,6 +6,12 @@
 #'
 #' @param x A matrix representing sorting steps.
 #' @return A matrix of class 'SortingStepsMatrix'.
+#' @examples
+#' # Create a vector of numbers
+#' numbers <- 1:9
+#' # Create a 3x3 matrix from the vector
+#' my_matrix <- matrix(numbers, nrow = 3, ncol = 3)
+#' as.SortingStepsMatrix(my_matrix)
 #' @export
 as.SortingStepsMatrix <- function(x) {
   if (!is.matrix(x)) {

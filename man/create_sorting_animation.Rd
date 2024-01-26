@@ -15,3 +15,7 @@ Animation object depicting the sorting process.
 \description{
 This generic function generates an animated visualization of sorting steps.
 }
+\examples{
+#Not run because the resulting gif comes out as multiple .pngs which gives a note.
+#create_sorting_animation(bubble_sort_steps(10))
+}

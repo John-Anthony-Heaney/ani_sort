@@ -2,6 +2,9 @@
 #'
 #' @param sorting_steps_df sorting steps object representing sorting steps.
 #' @return Animation object depicting the sorting process.
+#' @examples
+#' #Not run because the resulting gif comes out as multiple .pngs which gives a note.
+#' #create_sorting_animation(bubble_sort_steps(10))
 #' @export
 create_sorting_animation <- function(sorting_steps_df) {
   UseMethod("create_sorting_animation", sorting_steps_df)

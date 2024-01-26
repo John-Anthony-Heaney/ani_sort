@@ -15,3 +15,7 @@ matrix of steps
 \description{
 Takes positive integer N, creates random vector which is first step in the sort, appends each step to a matrix
 }
+\examples{
+# example code
+insertion_sort_steps(10)
+}

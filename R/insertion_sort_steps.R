@@ -2,6 +2,9 @@
 #'
 #' @param N positive integer
 #' @return matrix of steps
+#' @examples
+#' # example code
+#' insertion_sort_steps(10)
 #' @export
 insertion_sort_steps <- function(N) {
   x <- sample(N)
