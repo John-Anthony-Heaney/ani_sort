@@ -13,7 +13,10 @@ Imports:
     ggplot2,
     gganimate
 Suggests: 
+    knitr,
+    rmarkdown,
     testthat (>= 3.0.0)
 Depends: 
     R (>= 3.5.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr

@@ -1,0 +1,20 @@
+---
+title: "bubble-sort"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{bubble-sort}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(aniSort)
+create_sorting_animation(bubble_sort_steps(10))
+```
