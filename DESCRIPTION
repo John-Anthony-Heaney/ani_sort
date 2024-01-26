@@ -6,6 +6,7 @@ Authors@R:
            comment = c(ORCID = "YOUR-ORCID-ID"))
 Description: This package provides tools to visualize different sorting algorithms using animated plots. It leverages the ggplot2 and gganimate packages to create engaging and informative animations that help in understanding the functioning of various sorting algorithms.
 License: MIT + file LICENSE
+Github: https://github.com/John-Anthony-Heaney/ani_sort
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.0
