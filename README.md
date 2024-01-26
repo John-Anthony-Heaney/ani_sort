@@ -7,5 +7,5 @@
 - [x] create vignette
 - [x] update gitignore
 - [x] update Rbuildignore
-- [ ] update testthat unit test for create_sorting_animation to include verification that a .gif was created 
+- [x] update testthat unit test for create_sorting_animation to include verification that a .gif was created 
       
