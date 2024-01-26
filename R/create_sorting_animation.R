@@ -57,3 +57,6 @@ find_differences_vectorized <- function(matrix) {
   return(list(left = left_vector, right = right_vector))
 }
 
+
+
+
