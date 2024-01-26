@@ -1,10 +1,11 @@
-- [ ] Add method to code base.
-- [ ] fix description to remove warning error
-- [ ] Roxygen help documentation including examples for all functions
-- [ ] A vignette which explains the use of the package in an informative way.
-- [ ] Make Descritipion file informative and concise and include link to github
-- [ ] create testthat unit tests
-- [ ] create vignette
-- [ ] update gitignore
-- [ ] update Rbuildignore
+- [x] Add method to code base.
+- [x] fix description to remove warning error
+- [x] Roxygen help documentation including examples for all functions
+- [x] A vignette which explains the use of the package in an informative way.
+- [x] Make Descritipion file informative and concise and include link to github
+- [x] create testthat unit tests
+- [x] create vignette
+- [x] update gitignore
+- [x] update Rbuildignore
+- [ ] update testthat unit test for create_sorting_animation to include verification that a .gif was created 
       
